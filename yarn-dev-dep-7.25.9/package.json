@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@babel/plugin-transform-exponentiation-operator": "7.25.9"
+  }
+}
