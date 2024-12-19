@@ -23,10 +23,10 @@ a dependency of `@babel/plugin-transform-exponentiation-operator`, which is remo
 But I'm not sure, because I tested on `v7.25.9`, it still has this dependency, but it has no issues.
 
 ## Folders
-- `./yarn-dep/` `yarn add @babel/plugin-transform-exponentiation-operator` :x:
-- `./yarn-dev-dep/` `yarn add @babel/plugin-transform-exponentiation-operator -D` :x:
+- `./yarn-dep/` `yarn add @babel/plugin-transform-exponentiation-operator@7.22.5` :x:
+- `./yarn-dev-dep/` `yarn add @babel/plugin-transform-exponentiation-operator@7.22.5 -D` :x:
 - `./yarn-dev-dep-7.25.9/` `yarn add @babel/plugin-transform-exponentiation-operator@7.25.9 -D` :white_check_mark:
 - `./yarn-dev-dep-latest/` `yarn add @babel/plugin-transform-exponentiation-operator@latest -D` :white_check_mark:
 - `./npm-dep/` `npm install @babel/plugin-transform-exponentiation-operator` :white_check_mark:
 - `./npm-dev-dep/` `npm install @babel/plugin-transform-exponentiation-operator -D` :white_check_mark:
-- `./node14-yarn-dep/` Use Node.js 14.20 `yarn add @babel/plugin-transform-exponentiation-operator` :x:
+- `./node14-yarn-dep/` Use Node.js 14.20 `yarn add @babel/plugin-transform-exponentiation-operator@7.22.5` :x:
